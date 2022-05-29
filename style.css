@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  height: 100vh;
+  background-image: url('background\ image.jpg');
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0;
+  text-align: center;
+  background-color: wheat;
+  width:1000px;
+  
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Rock,#Paper,#Scissors{
+  background-color: rgb(245, 0, 0);
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 20px;
+  width: 200px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  font-weight: bold;
+
+}
+
+#Rock:hover,#Paper:hover,#Scissors:hover{
+  background-color:rgb(208, 0, 0) ;
+}
+
+#Rock:active,#Paper:active,#Scissors:active{
+  background-color:rgb(208, 0, 0) ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.headings{
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.compChoiceColor, .yourChoiceColor, .resultColor{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  margin: 2px;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+
+}
+
+.author{
+margin-bottom: 100px;
+padding-left: 580px;
+background-color: wheat;
+width: 1000px;
+}
+.lost{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  background-color: red;
+  color: white;
+  margin: 2px;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.win{
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(0, 213, 0);
+  color: white;
+  margin: 2px;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+}
